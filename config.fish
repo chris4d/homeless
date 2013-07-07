@@ -22,7 +22,7 @@
 ###### set $PATH ######
 
 # USER: set important paths here to put at the front of $PATH if you want to override system-wide settings
-set --local user_paths /usr/local/bin /usr/local/sbin
+set --local user_paths /usr/local/bin /usr/local/sbin /usr/local/opt/ruby/bin
 
 # populate a local variable with directories from /etc/paths
 set --local etc_paths
